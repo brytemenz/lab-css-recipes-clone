@@ -22,3 +22,88 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* Header */
+header {
+  padding: 20px;
+  position: relative; 
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+header h1 {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+main {
+  padding: 10px 200px;
+}
+section {
+  border-bottom: 1px solid #ccc;
+}
+
+.info {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Ingredients */
+.ingredients h2 {
+  margin: 10px 10px 10px 10px;
+}
+.ingredients__styles {
+  margin-bottom: 20px;
+}
+
+.ingredients__styles h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ingredients__styles ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.ingredients__styles li {
+  padding: 5px 0;
+}
+
+/* Directions */
+.directions h2 {
+  margin: 10px 10px 10px 10px;
+}
+
+.directions__styles {
+  margin-bottom: 20px;
+}
+
+.directions__styles h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.directions__styles ol {
+  list-style: decimal;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.directions__styles li {
+  margin-bottom: 10px;
+}
+
+
